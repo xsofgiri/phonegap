@@ -1,0 +1,142 @@
+/*@media (max-width : 400px) {*/
+
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    body, html {
+    height: 100%;
+    }
+
+    body {
+        font-family: 'Open Sans';
+    }
+
+    .container1 {
+        background-color: #F2EFEF !important;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        max-width: 1024px !important;
+    }
+
+    .centerLogoClass {
+        bottom: 50%;
+        position: relative;
+        top: 22%;
+        width: 100%;
+    }
+
+    .logoSmall {
+        width: 64%;
+        display: inline;
+    }
+
+    .headerClass {
+        height: 40px;
+        background-color: #1B5A8E;
+        color: #fff;
+        position: fixed;
+        width: 100%;
+    }
+
+    .marginTopClass {
+        margin-top: 10%;
+    }
+
+    .registrationFields {
+        border: 0;
+        background-color: transparent;
+        box-shadow: none;
+        font-family: 'Open Sans';
+        color: #0054A6;
+        font-size: 18px;
+    }
+
+        .registrationFields:hover, .registrationFields:focus {
+            box-shadow: none;
+            color: #0054A6;
+            font-size: 18px;
+        }
+
+    .thumbnail {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 12;
+    }
+
+    .note8modal1 {
+        background-color: #F1EFEF;
+        bottom: 10%;
+        height: 80%;
+        position: absolute;
+        top: 10%;
+        width: 100%;
+    }
+
+    .customLogin {
+        font-family: 'Open Sans';
+        border-radius: 0;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .maleCss, .femaleCss, .agreeToShiftCss, .disagreeToShiftCss {
+        color: #fff;
+        background-color: #48719D;
+    }
+
+    .disabled {
+        color: #48719D;
+        background-color: transparent;
+    }
+
+    .noListType {
+        list-style-type: none;
+        font-size: 18px;
+        font-family: 'Open Sans';
+        line-height: 200%;
+        padding: 0;
+        color: #5077a1;
+    }
+
+    .noMarginHead {
+        margin: 0;
+        font-family: 'Open Sans';
+        cursor: pointer;
+        font-size: 20px;
+        color: #6B8CB0;
+    }
+
+    .noListType > li {
+        cursor: pointer;
+        margin: 1px 0;
+    }
+
+    .articlesContentCss {
+        color: #48719D;
+        text-align: justify;
+        font-size: 16px;
+    }
+.panelBodyCustomMargin {
+    padding: 0 15px !important;
+}
+
+
+
+/*}*/
